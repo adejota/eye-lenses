@@ -9,12 +9,12 @@ Para rodar o projeto é necessário que você já tenha instalado em seu computa
 
 ## Tecnologias
 
-Back-end
+Back-end:
 
 - [Nodejs](https://nodejs.org/en/)
 - [MySQL](https://www.mysql.com/)
 
-Front-end
+Front-end:
 
 - [Vuejs](https://vuejs.org/)
 
@@ -29,7 +29,7 @@ $ cd eye-lenses
 
 ### Banco de dados
 
-No MySQL, abra uma nova guia e execute as querys descritas no arquivo [db.sql](db/db.sql)
+No MySQL, abra uma nova guia e execute as querys descritas no arquivo [db.sql](db/db.sql).
 
 ### Api
 
@@ -39,9 +39,12 @@ Para executar a api, da raiz do repo acesse o diretório da api:
 $ cd api-eye-lenses
 ```
 
+Crie um arquivo .env na raiz do projeto, copie o arquivo .env.example e preenche com os dados de conexão do seu usário local do MySQL.
+
 Execute os comandos abaixo no terminal:
 
 ```
+$ npm install
 $ npm run dev
 ```
 
